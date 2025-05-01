@@ -1,0 +1,54 @@
+head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- Ceci est l'en tête de ma page html -->
+        <header>
+            <div class="logo">MOSSOLESSI</div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produit.html">Produits</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+    
+          
+        <!-- Ceci est le formulaire --> 
+        <section class="contact">
+          <h1>Contactez-nous</h1>
+          <div class="contact-info">
+              <p><strong>Numéro de téléphone :</strong> (+235) 66 00 24 21 | 99 08 50 98</p>
+              <p><strong>Email :</strong> <a href="mailto:contact@mossolessi.com">contact@mossolessi.com</a></p>
+              <p><strong>Site Web :</strong> <a href="http://www.mossolessi.com" target="_blank">www.mossolessi.com</a></p>
+          </div>
+          
+          <form action="submit_form.php" method="POST" class="contact-form">
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom complet">
+  
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required placeholder="Votre adresse email">
+  
+              <label for="message">Message :</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Votre message"></textarea>
+  
+              <button type="submit" class="submit-btn">Envoyer</button>
+          </form>
+      </section>
+
+
+      <br><br><br><br>
+  
+
+    <footer>
+        <p>&copy; 2025 MOSSOLESSI - Tous droits réservés</p>
+      </footer>
+</body>
+</html>
