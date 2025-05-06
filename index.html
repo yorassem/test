@@ -1,181 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MODAI BOUTIQUE - Marché en ligne de produits locaux</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  
-    <!-- Header -->
-    <header>
-      <div class="logo">BOUTIQUE MODAI</div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="produit.html">Produits</a></li>
-          <li><a href="apropos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-    <main>
-      <section class="intro">
-        <h1 id="mossolessi">Bienvenue sur MODAI BOUTIQUE</h1>
-        <p id="p"> Modai Boutique est une plateforme de e-commerce dédiée à la valorisation des produits de la mode à Moundou ! Ici, nous vous offrons le meilleur de Moundou à portée du style au jeune branché. Que ce soit des vetment traditinnels,moderne,artisanal ou autres, vous pouvez commander en un seul clic et recevoir vos achats chez vous en moins de 24h. Notre mission est simple :valoriser la mode a Moundou, et rendre votre quotidien plus pratique grâce à un service de livraison rapide, fiable et à domicile.</p>
-        <button onclick="alert('Découvrir les produits')">Découvrir nos produits</button>
-      </section>
-  
-    <!-- Section Nos Produits Locaux -->
-    <section class="nos-produits">
-    <h2>Nos Produits Locaux</h2>
-  
-    <div class="liste-produits">
-  
-      <!-- Produit 1 -->
-      <div class="carte-produit">
-        <img src="imp1.jpg" alt="minirobes" width="100%" height="auto">
-        <h3>munirobes</h3>
-        <p>bon pour le bureaux et des sorties.</p>
-        <p class="prix">Prix : 7000 FCFA</p>
-        <button onclick="ajouterAuPanier('Sorgho')">Ajouter au panier</button>
-      </div>
-  
-      <!-- Produit 2 -->
-      <div class="carte-produit">
-        <img src="imp7.jpg" alt="Jolie sac a main" width="100%" height="auto">
-        <h3>Jolie sac a main</h3>
-        <p>contre le solei.</p>
-        <p class="prix">Prix : 2000 FCFA</p>
-        <button onclick="ajouterAuPanier('Arachides')">Ajouter au panier</button>
-      </div>
-  
-      <!-- Produit 3 -->
-      <div class="carte-produit">
-        <img src="imp3.jpg" alt="ensemble sac et chausure" width="100%" height="auto">
-        <h3>ensemble sac et chausure</h3>
-        <p>pour des sortie en weeckend.</p>
-        <p class="prix">Prix : 15000 FCFA</p>
-        <button onclick="ajouterAuPanier('Poisson frais')">Ajouter au panier</button>
-      </div>
-  
-      <!-- Produit 4 -->
-      <div class="carte-produit">
-        <img src="imp4.jpg" alt="veste et chapeau" width="100%" height="auto">
-        <h3>veste et chapeau</h3>
-        <p>confortable pour le bureau.</p>
-        <p class="prix">Prix : 30000 FCFA</p>
-        <button onclick="ajouterAuPanier('Pain artisanal')">Ajouter au panier</button>
-      </div>
-  
-    </div>
-  </section>
-   
-  
-    <!-- Section Notre Engagement -->
-    <section class="vision-mission">
-    <h2>Notre Engagement</h2>
-    <div class="blocs-engagement">
-  
-      <!-- Vision -->
-      <div class="bloc">
-        <img src="img/imp5.jpg" alt="Notre Vision">
-        <h3>Notre Vision</h3>
-        <p>Devenir LA plateforme de référence qui valorise la mode de Moundou à l’échelle nationale, tout en respectant nos valeur et nos religions.</p>
-      </div>
-  
-      <!-- Mission -->
-      <div class="bloc">
-        <img src="imp6.jpg" alt="Notre Mission">
-        <h3>Notre Mission</h3>
-        <p>Créer un lien direct entre producteurs et consommateurs, garantir la qualité, et livrer les richesses de Moundou à domicile, en toute simplicité et en moins de 24h.</p>
-      </div>
-  
-      <!-- Valeurs -->
-      <div class="bloc">
-        <img src="imp8.jpg" alt="Nos objectifs">
-        <h3>Nos Valeurs</h3>
-        <p>Engagement, proximité, transparence et fierté locale. Chaque commande soutient une histoire, une famille, un artisan de Moundou.</p>
-      </div>
-  
-    </div>
-  </section>
-  
-    <!--Retour à la ligne et ligne verte au milieu-->
-    <br><br><br>
-    <hr color="#4CAF50">
-  
-  
-    <!-- Section Pourquoi choisir Mossolessi -->
-    <section class="choisir-MODAI BOUTIQUE">
-    <div class="contenu-choisir">
-  
-    <!-- Texte à gauche -->
-    <div class="texte-choisir">
-        <h2>Pourquoi choisir BOUTIQUE MODAI ?</h2>
-        <p>Notre équipe est composée de professionnels passionnés, dévoués et rigoureux. Nous comptons aujourd'hui <strong>10 collaborateurs</strong> engagés à vos côtés.</p>
-        <ul>
-          <li> Excellence</li>
-          <li> Écoute</li>
-          <li> Sens d'analyse des besoins</li>
-          <li> Flexibilité</li>
-          <li> Dynamisme</li>
-        </ul>
-      </div>
-  
-      <!-- Carte à droite -->
-      <div class="carte-info">
-        <h3>Heures d'ouverture</h3>
-        <p><strong>Lundi - Vendredi :</strong> 05h30 - 22h</p>
-        <p><strong>Samedi :</strong> 08h - 18h</p>
-  
-        <h4>Besoin d'aide ?</h4>
-        <p>Nos équipes commerciales et techniques sont à votre écoute pour répondre rapidement à tous vos besoins.</p>
-  
-        <a href="contact.html" class="btn-contacter">Nous Contacter</a>
-      </div>
-  
-    </div>
-  </section>
-  
-  
-    <!-- Section Notre Équipe -->
-  <section class="equipe">
-    <h2>Notre Équipe</h2>
-    <div class="membres-equipe">
-  
-      <!-- YORASSEM DINGAO SABINE -->
-      <div class="membre">
-        <img src="imp5.jpg" alt="YORASSEM DINGAO SABINE">
-        <h3>YORASSEM DINGAO SABINE</h3>
-        <p>Directeur Général</p>
-      </div>
-  
-      <!-- LABEL -->
-      <div class="membre">
-        <img src="imp8.jpg" alt="LABEL">
-        <h3>LABEL</h3>
-        <p>Responsable Marketing et Communication</p>
-      </div>
-  
-      <!-- KARIM -->
-      <div class="membre">
-        <img src="imp9.jpg" alt="KARIM">
-        <h3>KARIM</h3>
-        <p>Responsable Administratif et Financier</p>
-      </div>
-  
-    </div>
-  </section>
-  
-  <!--Retour à la ligne-->
-  <br><br><br><br><br>
-   
-   <footer>
-      <p>&copy; 2025 MODAI BOUTIQUE - Tous droits réservés</p>
-    </footer>
-  
-    <!-- Ceci est le lien pour relier ma page Html à Java scritp -->
-    <script src="script.js"></script>
-  </body>
-  </html>
+  <meta charset="UTF-8">
+  <title>Calculatrice Scientifique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <div class="display" id="display">0</div>
+  <div class="buttons">
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="deleteLast()">←</button>
+    <button onclick="appendValue('(')">(</button>
+    <button onclick="appendValue(')')">)</button>
+    <button onclick="appendValue('/')">÷</button>
+
+    <button onclick="appendValue('7')">7</button>
+    <button onclick="appendValue('8')">8</button>
+    <button onclick="appendValue('9')">9</button>
+    <button onclick="appendValue('*')">×</button>
+    <button onclick="appendFunction('sqrt')">√</button>
+
+    <button onclick="appendValue('4')">4</button>
+    <button onclick="appendValue('5')">5</button>
+    <button onclick="appendValue('6')">6</button>
+    <button onclick="appendValue('-')">−</button>
+    <button onclick="appendValue('**')">xʸ</button>
+
+    <button onclick="appendValue('1')">1</button>
+    <button onclick="appendValue('2')">2</button>
+    <button onclick="appendValue('3')">3</button>
+    <button onclick="appendValue('+')">+</button>
+    <button onclick="appendFunction('sin')">sin</button>
+
+    <button onclick="appendValue('0')">0</button>
+    <button onclick="appendValue('.')">.</button>
+    <button onclick="calculate()" class="equal">=</button>
+    <button onclick="appendFunction('cos')">cos</button>
+    <button onclick="appendFunction('tan')">tan</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
